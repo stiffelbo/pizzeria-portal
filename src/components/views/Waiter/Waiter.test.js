@@ -1,10 +1,10 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import App from './App';
+import Waiter from './Waiter';
 
-describe('Component App', ()=>{
+describe('Component Waiter', ()=>{
   it('should render', ()=>{
-    const component = shallow(<App />);
+    const component = shallow(<Waiter />);
     expect(component).toBeTruthy();
   });
 });

@@ -1,10 +1,10 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import App from './App';
+import Tables from './Tables';
 
-describe('Component App', ()=>{
+describe('Component Tables', ()=>{
   it('should render', ()=>{
-    const component = shallow(<App />);
+    const component = shallow(<Tables />);
     expect(component).toBeTruthy();
   });
 });
